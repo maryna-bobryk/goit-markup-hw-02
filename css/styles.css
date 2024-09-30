@@ -7,7 +7,8 @@ body {
 .header-main {
   background-color: #fff;
 }
-h1 {
+
+.main-title {
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
@@ -160,7 +161,7 @@ h1 {
 }
 
 .portfolio-list-item-name {
-  font-weight: 700;
+  font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
