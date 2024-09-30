@@ -73,7 +73,8 @@ h2 {
 }
 
 .address-link:hover,
-.address-link:focus .address-link:active {
+.address-link:focus,
+.address-link:active {
   color: #404bbf;
 }
 
@@ -101,7 +102,8 @@ button {
   background: #4d5ae5;
 }
 
-.button:hover {
+.button:hover,
+.button:focus {
   background-color: #404bbf;
 }
 
