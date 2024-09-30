@@ -10,35 +10,36 @@ body {
 h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
 }
 
-h2 {
-  font-weight: 700;
+.titel {
+  font-weight: 500;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .header-main-logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-decoration: none;
 }
 
 .logo-accent {
   font-family: "Raleway", sans-serif;
-  color: #4d5ae5;
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -58,8 +59,12 @@ h2 {
 .nav-link:active {
   color: #404bbf;
 }
-.address-list {
+
+.address {
   font-style: normal;
+}
+
+.address-list {
   list-style-type: none;
 }
 
@@ -90,20 +95,18 @@ h2 {
   text-align: center;
   color: #fff;
 }
-button {
+.button-order-service {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #fff;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: #4d5ae5;
+  cursor: pointer;
 }
 
-.button:hover,
-.button:focus {
+.button-order-service:hover,
+.button-order-service:focus {
   background-color: #404bbf;
 }
 
@@ -130,9 +133,6 @@ button {
   background-color: #f4f4fd;
 }
 .our-team-list-item {
-  width: 264px;
-  height: 380px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08);
   background-color: #fff;
   list-style-type: none;
 }
@@ -179,14 +179,20 @@ button {
   background: #2e2f42;
 }
 .footer-main-logo {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
   text-decoration: none;
 }
+
+.logo-accent-footer {
+  color: #f4f4fd;
+}
+
 .footer-main-text {
   font-weight: 400;
   font-size: 16px;
